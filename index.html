@@ -3,80 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI News Insight | 최신 AI 뉴스 요약</title>
+    <title>AI Global Insight | 전 세계 AI 트렌드 요약</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body data-theme="light">
     <header>
         <div class="header-content">
-            <h1>AI News Insight</h1>
-            <div class="theme-toggle">
+            <h1>AI Global Insight</h1>
+            <nav class="main-nav">
+                <button class="nav-link active" data-page="home">홈</button>
+                <button class="nav-link" data-page="guestbook">방명록</button>
+            </nav>
+            <div class="header-right">
                 <button id="theme-btn">🌙 Dark Mode</button>
             </div>
         </div>
     </header>
 
     <main id="main-content">
-        <!-- List View -->
-        <section id="list-view">
+        <!-- Ad Unit: Top -->
+        <div class="ad-placeholder top-ad">
+            <p>AdSense Slot: Top Banner</p>
+        </div>
+
+        <!-- Home Page (List View) -->
+        <section id="list-view" class="page-view">
             <div class="section-header">
                 <div class="title-row">
-                    <h2>핵심 AI 뉴스</h2>
-                    <div id="live-date" class="live-date">2026년 05월 04일 (월)</div>
+                    <h2>Global AI Core News</h2>
+                    <div id="live-date" class="live-date">Detecting location...</div>
                 </div>
-                <p>글로벌 최신 뉴스를 조회수 기준으로 5개 엄선하여 전해드립니다.</p>
+                <p>전 세계에서 가장 주목받는 AI 기사를 조회수 기준으로 엄선하여 한국어로 제공합니다.</p>
                 
                 <div class="history-nav">
-                    <button class="nav-tab active" data-target="today">오늘의 뉴스</button>
-                    <button class="nav-tab" data-target="yesterday">어제의 뉴스</button>
+                    <button class="nav-tab active" data-target="today">오늘의 글로벌 뉴스</button>
+                    <button class="nav-tab" data-target="yesterday">어제의 글로벌 뉴스</button>
                 </div>
             </div>
+            
             <div id="news-container" class="news-grid">
-                <!-- News cards will be injected here -->
-                <div class="loading">뉴스를 불러오는 중...</div>
+                <!-- News cards injected here -->
+                <div class="loading">Loading Global Trends...</div>
+            </div>
+
+            <!-- Ad Unit: Mid-list -->
+            <div class="ad-placeholder mid-ad">
+                <p>AdSense Slot: In-feed Ad</p>
             </div>
         </section>
 
-        <!-- Detail View (Hidden by default) -->
-        <section id="detail-view" style="display: none;">
+        <!-- Detail Page -->
+        <section id="detail-view" class="page-view" style="display: none;">
             <button id="back-btn" class="back-button">← 목록으로 돌아가기</button>
             <article id="article-detail">
-                <!-- Detail content will be injected here -->
+                <!-- Detail content injected here -->
             </article>
+            <!-- Ad Unit: Detail Bottom -->
+            <div class="ad-placeholder bottom-ad">
+                <p>AdSense Slot: Content End Ad</p>
+            </div>
         </section>
 
-        <div class="divider"></div>
-        
-        <div id="comments-section">
-            <h3>커뮤니티 소통</h3>
-            <div id="disqus_thread"></div>
-        </div>
+        <!-- Guestbook Page -->
+        <section id="guestbook-view" class="page-view" style="display: none;">
+            <div class="section-header">
+                <h2>Guestbook & Community</h2>
+                <p>전 세계 AI 트렌드에 대해 자유롭게 의견을 나누어 주세요.</p>
+            </div>
+            <div id="comments-section" class="guestbook-container">
+                <div id="disqus_thread"></div>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
         <div class="divider"></div>
         <div class="footer-content">
-            <p>&copy; 2026 AI News Insight. All rights reserved.</p>
+            <p>&copy; 2026 AI Global Insight. All rights reserved.</p>
             <div class="partnership-link">
-                <a href="#contact-form-anchor" id="show-contact">제휴 문의</a>
+                <a href="#" id="show-contact">비즈니스 제휴 문의</a>
             </div>
         </div>
     </footer>
 
-    <!-- Contact Modal (Optional, for partnership) -->
+    <!-- Contact Modal -->
     <div id="contact-modal" class="modal" style="display: none;">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
             <div class="contact-section">
                 <h2>제휴 문의</h2>
+                <p>AI Global Insight와 함께할 파트너를 찾습니다.</p>
                 <form action="https://formspree.io/f/mvzlkbvd" method="POST" id="contact-form">
                     <div class="form-group">
                         <input type="email" name="email" placeholder="이메일 주소" required>
                     </div>
                     <div class="form-group">
-                        <textarea name="message" placeholder="문의 내용을 입력해주세요." required></textarea>
+                        <textarea name="message" placeholder="제안 내용을 상세히 입력해주세요." required></textarea>
                     </div>
-                    <button type="submit" class="submit-btn">문의 보내기</button>
+                    <button type="submit" class="submit-btn">문의 전송하기</button>
                 </form>
             </div>
         </div>
@@ -84,7 +108,7 @@
 
     <script src="main.js" type="module"></script>
     <script>
-        // Disqus Load Script
+        // Disqus Embed
         (function() {
             var d = document, s = d.createElement('script');
             s.src = 'https://productbuilder3.disqus.com/embed.js';
