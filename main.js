@@ -104,8 +104,7 @@ class AIGlobalApp {
         this.views = {
             home: document.getElementById('list-view'),
             detail: document.getElementById('detail-view'),
-            guestbook: document.getElementById('guestbook-view'),
-            blog: document.getElementById('blog-view')
+            guestbook: document.getElementById('guestbook-view')
         };
         this.articleDetail = document.getElementById('article-detail');
         this.backBtn = document.getElementById('back-btn');
@@ -255,7 +254,12 @@ class AIGlobalApp {
 
     setupEventListeners() {
         this.navLinks.forEach(link => {
-            link.addEventListener('click', () => this.switchPage(link.dataset.page));
+            link.addEventListener('click', (e) => {
+                const pageId = link.dataset.page;
+                if (pageId) {
+                    this.switchPage(pageId);
+                }
+            });
         });
 
         this.backBtn.addEventListener('click', () => this.switchPage('home'));
