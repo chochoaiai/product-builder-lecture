@@ -77,6 +77,13 @@ h1 {
     cursor: pointer;
     border-radius: 8px;
     transition: all 0.2s;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.blog-link {
+    color: var(--accent-color);
 }
 
 .nav-link.active {
