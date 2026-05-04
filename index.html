@@ -24,7 +24,7 @@
             <nav class="main-nav">
                 <button class="nav-link active" data-page="home">Home</button>
                 <button class="nav-link" data-page="guestbook">Guestbook</button>
-                <a href="https://blogainews.hashnode.dev/" target="_blank" class="nav-link blog-link">Blog ↗</a>
+                <button class="nav-link" data-page="blog">Blog</button>
             </nav>
             <div class="header-right">
                 <button id="theme-btn">🌙 Dark Mode</button>
@@ -84,6 +84,13 @@
             </div>
             <div id="comments-section" class="guestbook-container">
                 <div id="disqus_thread"></div>
+            </div>
+        </section>
+
+        <!-- Blog Page -->
+        <section id="blog-view" class="page-view" style="display: none;">
+            <div class="blog-frame-container">
+                <iframe id="blog-iframe" src="https://blogainews.hashnode.dev/" frameborder="0" allowfullscreen></iframe>
             </div>
         </section>
     </main>

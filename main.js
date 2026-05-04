@@ -104,7 +104,8 @@ class AIGlobalApp {
         this.views = {
             home: document.getElementById('list-view'),
             detail: document.getElementById('detail-view'),
-            guestbook: document.getElementById('guestbook-view')
+            guestbook: document.getElementById('guestbook-view'),
+            blog: document.getElementById('blog-view')
         };
         this.articleDetail = document.getElementById('article-detail');
         this.backBtn = document.getElementById('back-btn');
