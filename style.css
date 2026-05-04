@@ -68,17 +68,82 @@ main {
 /* List View */
 .section-header {
     margin-bottom: 40px;
-    text-align: center;
+    text-align: left;
+}
+
+.title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .section-header h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
+    font-size: 2.2rem;
+    margin: 0;
+    font-weight: 900;
 }
 
-.section-header p {
-    color: var(--text-secondary);
+.live-date {
     font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    background: var(--shadow-color);
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.history-nav {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.nav-tab {
+    background: var(--app-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.nav-tab.active {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.country-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(0,0,0,0.05);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+[data-theme="dark"] .country-tag {
+    background: rgba(255,255,255,0.1);
+}
+
+.views-count {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.views-count::before {
+    content: '👁️';
 }
 
 .news-grid {
