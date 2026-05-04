@@ -2,26 +2,28 @@
 
 ## Overview
 
-This is a simple web application that generates random lottery numbers. It's built using modern HTML, CSS, and JavaScript, without any external frameworks.
+This is a modern, responsive Lotto Number Generator application built using framework-less web technologies (HTML, CSS, and JavaScript). It leverages Web Components for encapsulation and modern CSS for a polished look and feel.
 
 ## Features
 
-*   Generates 6 unique random numbers between 1 and 45.
-*   Displays the numbers in a visually appealing way using Web Components.
-*   A "Generate" button to trigger the number generation.
-*   Modern and clean user interface.
+- **Unique Number Generation:** Generates 6 unique random numbers between 1 and 45.
+- **Theme Switcher:** Seamlessly toggle between **Dark Mode** and **White (Light) Mode**. Preference is persisted using `localStorage`.
+- **Dynamic UI:** 
+    - Animated number balls that "pop in" sequentially.
+    - Color-coded balls based on number ranges (1-10: Yellow, 11-20: Blue, 21-30: Red, 31-40: Gray, 41-45: Green).
+    - Modern aesthetics with gradients, deep shadows, and smooth transitions.
+- **Web Components:** The core generator logic is encapsulated within a `<lotto-generator>` custom element.
 
-## Current Plan
+## Technical Implementation
 
-*   **HTML (`index.html`):**
-    *   Update the title and header.
-    *   Add a button to generate numbers.
-    *   Add a container to display the generated numbers.
-*   **CSS (`style.css`):**
-    *   Style the main container, button, and number display area.
-    *   Create a modern and clean theme with a subtle background texture.
-    *   Style the `lotto-ball` web component.
-*   **JavaScript (`main.js`):**
-    *   Create a `LottoBall` web component to display each number.
-    *   Implement the logic to generate 6 unique random numbers.
-    *   Add an event listener to the "Generate" button to trigger the number generation and display.
+- **CSS Variables:** Used for theming (`--bg-color`, `--app-bg`, etc.) to allow for easy mode switching.
+- **Shadow DOM:** Used in the `LottoGenerator` component to isolate its styles and structure.
+- **ES6+ JavaScript:** 
+    - `Set` for unique number generation.
+    - `setTimeout` for the sequential pop-in animation.
+    - `Attribute` manipulation on the `body` tag for theme switching.
+
+## Deployment
+
+- **Repository:** https://github.com/chochoaiai/product-builder-lecture.git
+- **Branch:** main
