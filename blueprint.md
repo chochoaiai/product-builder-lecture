@@ -1,31 +1,22 @@
-# Lotto Number Generator
+# AI News Insight (AI 뉴스 인사이트)
 
-## Overview
+## 개요
+전 세계의 최신 AI 뉴스를 수집하여 사용자에게 5개의 핵심 기사를 보여주고, 한국어로 요약된 인사이트를 제공하는 고품격 뉴스 큐레이션 플랫폼입니다.
 
-This is a modern, responsive Lotto Number Generator application built using framework-less web technologies (HTML, CSS, and JavaScript). It leverages Web Components for encapsulation and modern CSS for a polished look and feel.
+## 주요 기능
+- **글로벌 AI 뉴스 큐레이션:** 최신 글로벌 AI 뉴스를 엄선하여 5개의 카드 형태로 제공합니다.
+- **한국어 요약 및 인사이트:** 영문 기사를 한국어로 요약하고, 전문가 수준의 인사이트를 추출하여 제공합니다.
+- **전체 화면 상세 뷰:** 기사 클릭 시 몰입감 있는 전체 화면으로 전환되어 상세 내용을 읽을 수 있습니다.
+- **다크/화이트 모드:** 사용자의 선호에 따라 UI 테마를 전환할 수 있으며, 설정이 유지됩니다.
+- **커뮤니티 소통:** Disqus 댓글 시스템을 통해 뉴스에 대한 의견을 나눌 수 있습니다.
+- **제휴 문의:** 하단 푸터를 통해 비즈니스 제휴 문의를 보낼 수 있습니다 (Formspree 연동).
 
-## Features
+## 기술적 특징
+- **Vanilla JavaScript (SPA 방식):** 외부 프레임워크 없이 순수 자바스크립트로 뷰 전환(List <-> Detail) 로직을 구현했습니다.
+- **현대적 CSS:** Flexbox, Grid, CSS Variables, Glassmorphism 효과 등을 활용하여 세련된 UI를 구축했습니다.
+- **반응형 디자인:** 데스크톱, 태블릿, 모바일에 최적화된 레이아웃을 제공합니다.
+- **데이터 구조:** 확장 가능한 JSON 구조를 사용하여 뉴스 데이터를 관리합니다.
 
-- **Unique Number Generation:** Generates 6 unique random numbers between 1 and 45.
-- **Theme Switcher:** Seamlessly toggle between **Dark Mode** and **White (Light) Mode**. Preference is persisted using `localStorage`.
-- **Partnership Inquiry Form:** Integrated with **Formspree** for direct business inquiries.
-- **Community Engagement:** Integrated **Disqus** comment system for user interaction and feedback.
-- **Dynamic UI:** 
-    - Animated number balls that "pop in" sequentially.
-    - Color-coded balls based on number ranges (1-10: Yellow, 11-20: Blue, 21-30: Red, 31-40: Gray, 41-45: Green).
-    - Modern aesthetics with gradients, deep shadows, and smooth transitions.
-- **Web Components:** The core generator logic is encapsulated within a `<lotto-generator>` custom element.
-
-## Technical Implementation
-
-- **CSS Variables:** Used for theming (`--bg-color`, `--app-bg`, etc.) to allow for easy mode switching.
-- **Shadow DOM:** Used in the `LottoGenerator` component to isolate its styles and structure.
-- **ES6+ JavaScript:** 
-    - `Set` for unique number generation.
-    - `setTimeout` for the sequential pop-in animation.
-    - `Attribute` manipulation on the `body` tag for theme switching.
-
-## Deployment
-
-- **Repository:** https://github.com/chochoaiai/product-builder-lecture.git
-- **Branch:** main
+## 배포 정보
+- **저장소:** https://github.com/chochoaiai/product-builder-lecture.git
+- **브랜치:** main
