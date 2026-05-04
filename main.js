@@ -17,7 +17,7 @@ themeBtn.addEventListener('click', () => {
 });
 
 function updateThemeButton(theme) {
-    themeBtn.textContent = theme === 'light' ? 'Dark Mode' : 'Light Mode';
+    themeBtn.innerHTML = theme === 'light' ? '🌙 Dark Mode' : '☀️ Light Mode';
 }
 
 class LottoGenerator extends HTMLElement {
