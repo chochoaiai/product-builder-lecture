@@ -33,6 +33,71 @@ body {
     transition: background-color 0.3s, box-shadow 0.3s;
     max-width: 400px;
     width: 90%;
+    margin: 40px auto;
+}
+
+.divider {
+    height: 1px;
+    background: var(--text-color);
+    opacity: 0.1;
+    margin: 30px 0;
+}
+
+.contact-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid var(--text-color);
+    background-color: var(--app-bg);
+    color: var(--text-color);
+    font-family: inherit;
+    box-sizing: border-box;
+    opacity: 0.8;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #6e8efb;
+    box-shadow: 0 0 0 3px rgba(110, 142, 251, 0.2);
+    opacity: 1;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+    color: #1a1a1a;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    font-size: 1rem;
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(67, 233, 123, 0.4);
+}
+
+.submit-btn:active {
+    transform: translateY(0);
 }
 
 .theme-toggle {
