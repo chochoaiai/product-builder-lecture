@@ -9,6 +9,7 @@ This is a modern, responsive Lotto Number Generator application built using fram
 - **Unique Number Generation:** Generates 6 unique random numbers between 1 and 45.
 - **Theme Switcher:** Seamlessly toggle between **Dark Mode** and **White (Light) Mode**. Preference is persisted using `localStorage`.
 - **Partnership Inquiry Form:** Integrated with **Formspree** for direct business inquiries.
+- **Community Engagement:** Integrated **Disqus** comment system for user interaction and feedback.
 - **Dynamic UI:** 
     - Animated number balls that "pop in" sequentially.
     - Color-coded balls based on number ranges (1-10: Yellow, 11-20: Blue, 21-30: Red, 31-40: Gray, 41-45: Green).
