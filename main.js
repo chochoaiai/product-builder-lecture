@@ -1,87 +1,87 @@
-// Global AI News Data (Enriched for AdSense/SEO)
+// AI News Intelligence Data (Global/English/Deep)
 const newsData = [
     {
         id: 1,
-        title: "OpenAI Begins Training GPT-5: A Milestone Towards Artificial General Intelligence",
-        tag: "Breaking News",
+        title: "The Architecture of Tomorrow: OpenAI Commences Training for GPT-5",
+        tag: "Core Model",
         country: "🇺🇸 USA",
         image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1000",
-        source: "Reuters",
+        source: "Reuters Intelligence",
         date: "2026.05.04",
-        views: 45200,
-        summary: "OpenAI가 공식적으로 차세대 거대 언어 모델인 'GPT-5'의 학습 단계에 진입했음을 발표했습니다. 이번 모델은 단순한 텍스트 예측을 넘어 인류 수준의 인공 일반 지능(AGI)을 목표로 설계되었습니다. 내부 소식통에 따르면, GPT-5는 이전 모델보다 수십 배 커진 파라미터와 고도화된 추론 알고리즘을 탑재하여 복잡한 과학적 문제 해결과 정교한 멀티모달 상호작용이 가능해질 전망입니다. 이는 AI 산업의 새로운 패러다임을 제시하며 전 세계 기술 패권 경쟁에 큰 파장을 일으키고 있습니다.",
+        views: 84200,
+        summary: "OpenAI has officially initiated the training phase for GPT-5, a model designed to transcend current limitations in artificial reasoning. This next-generation large language model (LLM) is engineered with a focus on Artificial General Intelligence (AGI), featuring a sophisticated multi-modal architecture that allows for native integration of text, vision, and audio data. Reports suggest that GPT-5 utilizes a specialized 'sparse mixture of experts' (MoE) approach, drastically increasing parameter counts while optimizing inference costs. The training run is leveraging tens of thousands of NVIDIA Blackwell B200 GPUs, signaling a massive capital commitment to maintaining technological hegemony in the AI sector.",
         insights: [
-            "인간의 사고방식을 모방한 추론 엔진의 비약적 발전이 예상됩니다.",
-            "멀티모달 통합 기술을 통해 시각, 청각, 텍스트가 완벽히 결합된 지능형 에이전트가 탄생할 것입니다.",
-            "막대한 전력 소모를 해결하기 위한 친환경 AI 연산 아키텍처 도입이 필수적인 과제로 부상했습니다."
+            "Advanced Reasoning: Expect a paradigm shift from pattern matching to structured logical deduction.",
+            "Native Multimodality: The model will perceive the world holistically, processing diverse sensory inputs in a unified latent space.",
+            "Strategic Infrastructure: The reliance on massive compute clusters highlights the growing moat between frontier labs and second-tier developers."
         ],
         url: "https://reuters.com"
     },
     {
         id: 2,
-        title: "NVIDIA Blackwell GPUs Enter Mass Production: Revolutionizing Data Center Efficiency",
-        tag: "Hardware",
+        title: "NVIDIA's Blackwell B200: Deciphering the 30x Performance Leap in AI Inference",
+        tag: "Infrastucture",
         country: "🇺🇸 USA",
         image: "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?auto=format&fit=crop&q=80&w=1000",
-        source: "Bloomberg",
+        source: "Bloomberg Technology",
         date: "2026.05.04",
-        views: 38500,
-        summary: "엔비디아가 혁신적인 블랙웰(Blackwell) 아키텍처 기반의 B200 GPU 양산 체제에 본격 돌입했습니다. 이 새로운 칩셋은 기존 H100 모델 대비 인공지능 추론 성능에서 최대 30배 이상의 향상을 보여주며, 대규모 언어 모델(LLM) 구동 비용을 획기적으로 낮출 것으로 기대됩니다. 전 세계 주요 클라우드 서비스 기업들은 이미 선주문을 완료한 상태이며, 이는 데이터센터 인프라의 전면적인 세대교체를 의미합니다. 특히 에너지 효율성이 25배 개선되어 지속 가능한 AI 인프라 구축의 핵심 동력이 될 것입니다.",
+        views: 71500,
+        summary: "NVIDIA has entered full-scale production of its Blackwell B200 GPUs, representing the most significant leap in data center compute since the introduction of the CUDA platform. The B200 delivers a staggering 20 petaflops of FP4 power, optimized specifically for the massive inference requirements of trillion-parameter models. By integrating two chips on a single substrate via a high-bandwidth interconnect, NVIDIA has effectively doubled the physical compute density. This hardware evolution is expected to reduce the energy consumption of AI tasks by up to 25x, addressing the primary bottleneck in global AI scaling: power availability. Major hyperscalers including AWS, Azure, and GCP are already re-architecting their cooling systems to accommodate the liquid-cooled Blackwell racks.",
         insights: [
-            "하드웨어 성능 향상이 AI 모델의 대중화와 서비스 단가 하락을 가속화할 것입니다.",
-            "엔비디아의 생태계 장악력이 더욱 공고해지며 경쟁사와의 격차가 벌어질 전망입니다.",
-            "액체 냉각 방식 등 새로운 데이터센터 설계 표준이 도입되는 계기가 될 것입니다."
+            "Cost Efficiency: A 30x improvement in inference performance will democratize the deployment of ultra-large models for enterprise applications.",
+            "Energy Pivot: The focus on performance-per-watt reflects a shift towards sustainable AI scaling.",
+            "Hardware Lock-in: The proprietary NVLink 5.0 interconnect further solidifies NVIDIA's dominance over the data center fabric."
         ],
         url: "https://bloomberg.com"
     },
     {
         id: 3,
-        title: "Google Expands Gemini Nano to All Android Devices: On-Device AI for Billions",
-        tag: "Mobile",
+        title: "On-Device Intelligence: Google Deploys Gemini Nano Across Global Android Ecosystem",
+        tag: "Edge AI",
         country: "🇺🇸 USA",
         image: "https://images.unsplash.com/photo-1546054454-aa26e2b734c7?auto=format&fit=crop&q=80&w=1000",
         source: "TechCrunch",
         date: "2026.05.04",
-        views: 32100,
-        summary: "구글이 자사의 경량화 AI 모델인 Gemini Nano를 전 세계 모든 안드로이드 기기로 확대 적용한다고 발표했습니다. 이는 클라우드 서버와의 통신 없이 기기 내부에서 직접 AI 연산을 수행하는 '온디바이스 AI'의 대중화를 선언한 것입니다. 실시간 번역, 오디오 받아쓰기, 지능형 사진 편집 기능 등이 인터넷 연결 없이도 안전하게 작동하게 됩니다. 사용자의 민감한 데이터가 외부로 유출되지 않아 프라이버시가 극대화되며, 저지연 응답 속도를 통해 사용자 경험이 비약적으로 향상될 것입니다.",
+        views: 58900,
+        summary: "Google has announced a massive rollout of Gemini Nano, its most efficient on-device AI model, to over 2 billion Android devices worldwide. This move effectively shifts the center of AI processing from the cloud to the edge, enabling latency-free interactions for translation, summarization, and context-aware assistance. By leveraging specialized NPUs (Neural Processing Units) in modern mobile chipsets, Gemini Nano ensures that sensitive user data never leaves the device, providing a robust privacy layer that cloud-only solutions cannot match. This strategic deployment aims to create a unified AI experience that remains functional even in offline environments, setting a new benchmark for mobile operating systems.",
         insights: [
-            "엣지 컴퓨팅 기술의 발전으로 개인 정보 보호와 성능을 동시에 잡는 트렌드가 정착될 것입니다.",
-            "네트워크 인프라가 취약한 지역에서도 고성능 AI 혜택을 누릴 수 있는 디지털 격차 해소가 기대됩니다.",
-            "스마트폰 하드웨어 사양 경쟁이 AI 전용 프로세서(NPU) 최적화 중심으로 이동할 것입니다."
+            "Privacy at Scale: Local processing mitigates the data security concerns associated with centralized AI servers.",
+            "UX Fluidity: Eliminating round-trip latency to the cloud makes AI interactions feel instantaneous and native.",
+            "Ecosystem Loyalty: Deep OS integration creates a sticky user experience that competitors will struggle to replicate without similar hardware-software control."
         ],
         url: "https://techcrunch.com"
     },
     {
         id: 4,
-        title: "Microsoft Announces 'Copilot+ PC' with Advanced Neural Processing Units",
-        tag: "Software",
+        title: "Microsoft's Copilot+ PCs: Redefining the Personal Computing Paradigm",
+        tag: "End-User",
         country: "🇺🇸 USA",
         image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&q=80&w=1000",
         source: "The Verge",
         date: "2026.05.03",
-        views: 29800,
-        summary: "마이크로소프트가 AI 기능을 운영체제(OS) 깊숙이 통합한 새로운 하드웨어 카테고리인 'Copilot+ PC'를 공개했습니다. 40 TOPS 이상의 연산 성능을 갖춘 NPU를 탑재하여, 윈도우 환경 내에서 사용자의 모든 활동을 이해하고 보조합니다. 특히 'Recall' 기능을 통해 과거의 작업 내용을 자연어로 검색하고 복원하는 혁신적인 경험을 제공합니다. 이는 윈도우 탄생 이후 가장 큰 변화로 평가받으며, PC 시장의 새로운 부흥기를 예고하고 있습니다.",
+        views: 42300,
+        summary: "Microsoft has unveiled the 'Copilot+ PC' standard, a transformative update to the Windows hardware ecosystem. These devices are equipped with specialized AI silicon capable of 45+ TOPS (Trillion Operations Per Second), allowing for 'system-wide semantic understanding.' Feature such as 'Recall' allow users to search across their entire computing history using natural language, effectively giving the computer a perfect photographic memory of everything seen on the screen. This integration marks the end of the traditional OS-and-App silos, moving towards a fluid, agentic experience where the computer proactively assists in creative and analytical workflows. The partnership with Qualcomm, Intel, and AMD ensures a broad market reach for these AI-native workstations.",
         insights: [
-            "PC가 단순한 도구를 넘어 사용자의 기억과 업무 방식을 보조하는 파트너로 진화하고 있습니다.",
-            "로컬 AI 연산 비중이 커짐에 따라 운영체제의 구조적 패러다임이 변화하고 있습니다.",
-            "기업용 시장에서 AI 기반 업무 생산성 도구의 도입이 필수화될 것입니다."
+            "Semantic OS: Windows is evolving into a context-aware layer that understands the meaning behind user data.",
+            "Hardware Renaissance: The AI requirements are driving the first significant wave of PC hardware upgrades in over a decade.",
+            "Productivity Surge: Semantic search and proactive assistance will eliminate 'digital friction' for knowledge workers."
         ],
         url: "https://theverge.com"
     },
     {
         id: 5,
-        title: "UN Adopts Landmark Resolution on AI Safety and Human Rights Protection",
-        tag: "Policy",
+        title: "The UN Global Resolution on AI: Establishing a Framework for Planetary Safety",
+        tag: "Governance",
         country: "🌐 UN",
         image: "https://images.unsplash.com/photo-1521791136064-7986c2959213?auto=format&fit=crop&q=80&w=1000",
         source: "The Guardian",
         date: "2026.05.03",
-        views: 25400,
-        summary: "유엔 총회에서 인공지능의 안전하고 신뢰할 수 있는 사용을 보장하기 위한 역사적인 결의안이 만장일치로 채택되었습니다. 이번 결의안은 AI 기술이 인권을 침해하거나 민주주의를 위협하는 방식으로 사용되어서는 안 된다는 국가 간의 강력한 합의를 담고 있습니다. 특히 개발도상국과 선진국 간의 AI 기술 격차를 해소하고, 공정한 기술 분배를 위한 국제적 협력 체계를 마련할 것을 촉구했습니다. 이는 전 세계적으로 파편화되어 있던 AI 규제 가이드라인을 하나로 모으는 이정표가 될 것입니다.",
+        views: 31200,
+        summary: "The United Nations General Assembly has unanimously adopted a landmark resolution on the safe and ethical deployment of Artificial Intelligence. This resolution, co-sponsored by over 120 nations, establishes a global consensus that AI development must prioritize human rights, safety, and international law. It explicitly calls for a ban on autonomous weapons systems that operate without meaningful human oversight and mandates transparency in the training of foundational models. Furthermore, the resolution outlines a cooperative framework for bridging the digital divide, ensuring that the economic benefits of AI are distributed equitably across the Global South. This represents a historic pivot from fragmented national regulations towards a unified global governance model for transformative technologies.",
         insights: [
-            "글로벌 기술 규제가 '혁신'과 '안전' 사이의 균형을 찾는 단계로 진입했습니다.",
-            "국제 표준 준수가 AI 기업들의 글로벌 시장 진출에 필수적인 요건이 될 것입니다.",
-            "기술 격차 해소가 미래 국제 정치 및 경제 안보의 핵심 변수로 부상하고 있습니다."
+            "Global Standardization: International consensus will likely drive a unified regulatory baseline for AI labs worldwide.",
+            "Safety-First Mandate: The focus on human rights and safety over pure innovation speed reflects growing public concern over AGI.",
+            "Inclusion Strategy: Addressing the digital divide is now a core component of global geopolitical stability."
         ],
         url: "https://theguardian.com"
     }
@@ -161,7 +161,6 @@ class AIGlobalApp {
         
         window.scrollTo(0, 0);
         
-        // Reset history tabs if going back to home
         if (pageId === 'home') {
             this.renderNewsList();
         }
@@ -177,7 +176,7 @@ class AIGlobalApp {
             .slice(0, 5);
 
         if (filteredNews.length === 0) {
-            this.newsContainer.innerHTML = '<div class="loading">No news found for this date.</div>';
+            this.newsContainer.innerHTML = '<div class="loading">No archival data found for this segment.</div>';
             return;
         }
 
@@ -190,7 +189,7 @@ class AIGlobalApp {
                     <div>
                         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
                             <span class="news-card-tag">${news.tag}</span>
-                            <div class="views-count">${(news.views/1000).toFixed(1)}k</div>
+                            <div class="views-count">${(news.views/1000).toFixed(1)}k readers</div>
                         </div>
                         <h3><span class="country-tag">${news.country}</span>${news.title}</h3>
                         <p style="color: var(--text-secondary); font-size: 0.95rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 15px;">
@@ -198,18 +197,17 @@ class AIGlobalApp {
                         </p>
                     </div>
                     <div class="news-card-meta">
-                        <span>${news.source}</span> • <span>${news.date}</span>
+                        <span>Source: ${news.source}</span> • <span>${news.date}</span>
                     </div>
                 </div>
             `;
             card.addEventListener('click', () => this.showDetail(news));
             this.newsContainer.appendChild(card);
             
-            // Inject small ad placeholder after 2nd card
             if (index === 1) {
                 const ad = document.createElement('div');
                 ad.className = 'ad-placeholder mid-ad';
-                ad.innerHTML = '<p>AdSense Slot: Native In-feed</p>';
+                ad.innerHTML = '<p>AdSense Slot: Premium In-feed Native</p>';
                 this.newsContainer.appendChild(ad);
             }
         });
@@ -225,31 +223,30 @@ class AIGlobalApp {
             </div>
             <h1 class="detail-title" style="font-size: 2.8rem; margin-bottom: 25px;">${news.title}</h1>
             <div class="detail-meta" style="margin-bottom: 40px; border-bottom: 2px solid var(--border-color); padding-bottom: 25px;">
-                <span>Source: ${news.source}</span>
-                <span>Date: ${news.date}</span>
-                <span>Views: ${news.views.toLocaleString()}</span>
+                <span>Authority: ${news.source}</span>
+                <span>Publication Date: ${news.date}</span>
+                <span>Audience Reach: ${news.views.toLocaleString()}</span>
             </div>
             
             <div class="summary-section">
-                <h4 style="margin-bottom: 20px; color: var(--primary-color);">Deep Summary (Korean)</h4>
-                <p style="line-height: 1.9; letter-spacing: -0.01em;">${news.summary}</p>
+                <h4 style="margin-bottom: 20px; color: var(--primary-color); font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em;">Executive Summary</h4>
+                <p style="line-height: 2; letter-spacing: -0.01em; font-size: 1.2rem;">${news.summary}</p>
             </div>
 
-            <!-- Detail Mid Ad -->
             <div class="ad-placeholder" style="height: 100px; margin: 40px 0;">
-                <p>AdSense Slot: Article Body</p>
+                <p>AdSense Slot: Contextual Mid-Article</p>
             </div>
             
             <div class="insight-section">
-                <h4 style="font-size: 1.5rem; margin-bottom: 25px;">Core Insights</h4>
+                <h4 style="font-size: 1.6rem; margin-bottom: 30px; font-weight: 800;">Strategic Insights</h4>
                 <ul class="insight-list">
-                    ${news.insights.map(item => `<li style="margin-bottom: 20px; line-height: 1.6;">${item}</li>`).join('')}
+                    ${news.insights.map(item => `<li style="margin-bottom: 25px; line-height: 1.7; font-size: 1.1rem;">${item}</li>`).join('')}
                 </ul>
             </div>
             
-            <div style="margin-top: 50px; text-align: center;">
-                <a href="${news.url}" target="_blank" class="source-link" style="font-size: 1.1rem; padding: 12px 30px; border: 2px solid var(--primary-color); border-radius: 50px;">
-                    Read Original Article (English) →
+            <div style="margin-top: 60px; text-align: center; border-top: 1px solid var(--border-color); padding-top: 40px;">
+                <a href="${news.url}" target="_blank" class="source-link" style="font-size: 1.1rem; padding: 15px 40px; border: 2px solid var(--primary-color); border-radius: 50px; font-weight: 700;">
+                    Access Original Publication →
                 </a>
             </div>
         `;

@@ -1,18 +1,27 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Global Insight | 전 세계 AI 트렌드 요약</title>
+    <title>AI Global Insight | Global AI Trends & Strategic Analytics</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ92STRP84"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-PJ92STRP84');
+    </script>
 </head>
 <body data-theme="light">
     <header>
         <div class="header-content">
             <h1>AI Global Insight</h1>
             <nav class="main-nav">
-                <button class="nav-link active" data-page="home">홈</button>
-                <button class="nav-link" data-page="guestbook">방명록</button>
+                <button class="nav-link active" data-page="home">Home</button>
+                <button class="nav-link" data-page="guestbook">Guestbook</button>
             </nav>
             <div class="header-right">
                 <button id="theme-btn">🌙 Dark Mode</button>
@@ -23,52 +32,52 @@
     <main id="main-content">
         <!-- Ad Unit: Top -->
         <div class="ad-placeholder top-ad">
-            <p>AdSense Slot: Top Banner</p>
+            <p>AdSense Slot: Top Leaderboard</p>
         </div>
 
         <!-- Home Page (List View) -->
         <section id="list-view" class="page-view">
             <div class="section-header">
                 <div class="title-row">
-                    <h2>Global AI Core News</h2>
-                    <div id="live-date" class="live-date">Detecting location...</div>
+                    <h2>Premium AI Analytics</h2>
+                    <div id="live-date" class="live-date">Detecting local time...</div>
                 </div>
-                <p>전 세계에서 가장 주목받는 AI 기사를 조회수 기준으로 엄선하여 한국어로 제공합니다.</p>
+                <p>Curating the world's most impactful AI developments. We provide deep technical summaries and strategic insights for global tech leaders.</p>
                 
                 <div class="history-nav">
-                    <button class="nav-tab active" data-target="today">오늘의 글로벌 뉴스</button>
-                    <button class="nav-tab" data-target="yesterday">어제의 글로벌 뉴스</button>
+                    <button class="nav-tab active" data-target="today">Today's Briefing</button>
+                    <button class="nav-tab" data-target="yesterday">Yesterday's Archives</button>
                 </div>
             </div>
             
             <div id="news-container" class="news-grid">
                 <!-- News cards injected here -->
-                <div class="loading">Loading Global Trends...</div>
+                <div class="loading">Fetching Global Intelligence...</div>
             </div>
 
             <!-- Ad Unit: Mid-list -->
             <div class="ad-placeholder mid-ad">
-                <p>AdSense Slot: In-feed Ad</p>
+                <p>AdSense Slot: Native In-feed</p>
             </div>
         </section>
 
         <!-- Detail Page -->
         <section id="detail-view" class="page-view" style="display: none;">
-            <button id="back-btn" class="back-button">← 목록으로 돌아가기</button>
+            <button id="back-btn" class="back-button">← Back to Intelligence Feed</button>
             <article id="article-detail">
                 <!-- Detail content injected here -->
             </article>
             <!-- Ad Unit: Detail Bottom -->
             <div class="ad-placeholder bottom-ad">
-                <p>AdSense Slot: Content End Ad</p>
+                <p>AdSense Slot: High Impact Display</p>
             </div>
         </section>
 
         <!-- Guestbook Page -->
         <section id="guestbook-view" class="page-view" style="display: none;">
             <div class="section-header">
-                <h2>Guestbook & Community</h2>
-                <p>전 세계 AI 트렌드에 대해 자유롭게 의견을 나누어 주세요.</p>
+                <h2>Guestbook & Global Community</h2>
+                <p>Share your perspectives on the latest AI advancements with our global network of innovators.</p>
             </div>
             <div id="comments-section" class="guestbook-container">
                 <div id="disqus_thread"></div>
@@ -79,9 +88,9 @@
     <footer class="footer">
         <div class="divider"></div>
         <div class="footer-content">
-            <p>&copy; 2026 AI Global Insight. All rights reserved.</p>
+            <p>&copy; 2026 AI Global Insight. Leading the Global AI Discourse.</p>
             <div class="partnership-link">
-                <a href="#" id="show-contact">비즈니스 제휴 문의</a>
+                <a href="#" id="show-contact">Business Partnership Inquiry</a>
             </div>
         </div>
     </footer>
@@ -91,16 +100,16 @@
         <div class="modal-content">
             <span class="close-modal">&times;</span>
             <div class="contact-section">
-                <h2>제휴 문의</h2>
-                <p>AI Global Insight와 함께할 파트너를 찾습니다.</p>
+                <h2>Partnership Inquiry</h2>
+                <p>Connect with AI Global Insight for strategic collaborations and media partnerships.</p>
                 <form action="https://formspree.io/f/mvzlkbvd" method="POST" id="contact-form">
                     <div class="form-group">
-                        <input type="email" name="email" placeholder="이메일 주소" required>
+                        <input type="email" name="email" placeholder="Business Email Address" required>
                     </div>
                     <div class="form-group">
-                        <textarea name="message" placeholder="제안 내용을 상세히 입력해주세요." required></textarea>
+                        <textarea name="message" placeholder="Provide a detailed overview of your proposal." required></textarea>
                     </div>
-                    <button type="submit" class="submit-btn">문의 전송하기</button>
+                    <button type="submit" class="submit-btn">Transmit Proposal</button>
                 </form>
             </div>
         </div>
